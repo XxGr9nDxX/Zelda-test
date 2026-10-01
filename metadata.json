@@ -1,0 +1,7 @@
+{
+  "name": "Sylva: Echoes of the Wild",
+  "description": "A lush, fast-paced top-down mobile action adventure video game with smooth vector art, dynamic lighting, responsive touch controls, and juicy combat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

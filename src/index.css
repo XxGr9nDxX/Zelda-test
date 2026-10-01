@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  body {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #0c1511;
+    overflow: hidden;
+    touch-action: none;
+  }
+
+  h1, h2, h3, .font-fantasy {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+.glass-panel {
+  background: rgba(13, 27, 21, 0.72);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(134, 239, 172, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+}
+
+.glass-panel-gold {
+  background: rgba(28, 24, 15, 0.8);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(251, 191, 36, 0.25);
+  box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.55);
+}
+
+.touch-btn {
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
